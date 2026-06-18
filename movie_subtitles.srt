@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:05,000
+Czy wiesz, że sztuczna inteligencja może tworzyć sztukę?
+
+2
+00:00:05,000 --> 00:00:10,000
+Oto 5 najdziwniejszych faktów o sztucznej inteligencji.
+
+3
+00:00:10,000 --> 00:00:15,000
+Fakt nr 1: Sztuczna inteligencja może komponować muzykę.
+
+4
+00:00:15,000 --> 00:00:20,000
+Fakt nr 2: Sztuczna inteligencja może rozpoznawać emocje.
+
+5
+00:00:20,000 --> 00:00:25,000
+Fakt nr 3: Sztuczna inteligencja może tworzyć filmy.
+
+6
+00:00:25,000 --> 00:00:30,000
+Fakt nr 4: Sztuczna inteligencja może grać w gry.
+
+7
+00:00:30,000 --> 00:00:35,000
+Fakt nr 5: Sztuczna inteligencja może tworzyć nowe języki.
+
+8
+00:00:35,000 --> 00:00:50,000
+To tylko kilka przykładów tego, co może zrobić sztuczna inteligencja.
+
+9
+00:00:50,000 --> 00:01:00,000
+Subskrybuj nasz kanał, aby dowiedzieć się więcej o sztucznej inteligencji

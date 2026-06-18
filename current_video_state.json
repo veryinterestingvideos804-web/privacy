@@ -1,0 +1,307 @@
+{
+    "global_context": {
+        "topic": "Najdziwniejsze fakty o sztucznej inteligencji",
+        "style": "edukacyjny, szybki, wiralowy",
+        "duration_seconds": 60
+    },
+    "selected_idea": {
+        "title": "Sztuczna inteligencja: 5 najdziwniejszych faktów",
+        "hook": "Czy wiesz, że sztuczna inteligencja może tworzyć sztukę?",
+        "description": "W tym krótkim filmie dowiesz się o najdziwniejszych faktach na temat sztucznej inteligencji, od tworzenia sztuki po rozpoznawanie emocji.",
+        "keywords": [
+            "sztuczna inteligencja",
+            "AI",
+            "najdziwniejsze fakty",
+            "edukacja"
+        ]
+    },
+    "script": {
+        "segments": [
+            {
+                "timeframe": "0-5s",
+                "narration": "Czy wiesz, że sztuczna inteligencja może tworzyć sztukę?",
+                "visual": "Animacja logo kanału z efektami świetlnymi, przejście do zdjęcia sztuki stworzonej przez AI",
+                "audio_notes": "Muzyka elektroniczna, tempo: 120 BPM, efekt dźwiękowy: 'zwiększające się' buzz"
+            },
+            {
+                "timeframe": "5-10s",
+                "narration": "Oto 5 najdziwniejszych faktów o sztucznej inteligencji.",
+                "visual": "Animacja liczb od 1 do 5, wyświetlane na ekranie jako tytuły poszczególnych faktów",
+                "audio_notes": "Efekt dźwiękowy: 'kliknięcie', muzyka w tle"
+            },
+            {
+                "timeframe": "10-15s",
+                "narration": "Fakt nr 1: Sztuczna inteligencja może komponować muzykę.",
+                "visual": "Klip muzyka grającego na pianinie, z efektem 'rozwijającej się' nuty",
+                "audio_notes": "Krótki fragment muzyki skomponowanej przez AI, efekt dźwiękowy: 'nuta'"
+            },
+            {
+                "timeframe": "15-20s",
+                "narration": "Fakt nr 2: Sztuczna inteligencja może rozpoznawać emocje.",
+                "visual": "Klip twarzy z emocjami, z efektem 'skanowania' emocji",
+                "audio_notes": "Efekt dźwiękowy: 'skanowanie', muzyka w tle"
+            },
+            {
+                "timeframe": "20-25s",
+                "narration": "Fakt nr 3: Sztuczna inteligencja może tworzyć filmy.",
+                "visual": "Klip kamery filmowej, z efektem 'przewijania' taśmy filmowej",
+                "audio_notes": "Efekt dźwiękowy: 'przewijanie', muzyka w tle"
+            },
+            {
+                "timeframe": "25-30s",
+                "narration": "Fakt nr 4: Sztuczna inteligencja może grać w gry.",
+                "visual": "Klip gry komputerowej, z efektem 'grania' postaci",
+                "audio_notes": "Efekt dźwiękowy: 'gra', muzyka w tle"
+            },
+            {
+                "timeframe": "30-35s",
+                "narration": "Fakt nr 5: Sztuczna inteligencja może tworzyć nowe języki.",
+                "visual": "Klip słów w różnych językach, z efektem 'pojawiania się' nowych słów",
+                "audio_notes": "Efekt dźwiękowy: 'pojawianie się', muzyka w tle"
+            },
+            {
+                "timeframe": "35-50s",
+                "narration": "To tylko kilka przykładów tego, co może zrobić sztuczna inteligencja.",
+                "visual": "Klip robota lub komputera, z efektem 'pracy' w tle",
+                "audio_notes": "Muzyka w tle, efekt dźwiękowy: 'praca'"
+            }
+        ],
+        "cta_segment": {
+            "timeframe": "50-60s",
+            "narration": "Subskrybuj nasz kanał, aby dowiedzieć się więcej o sztucznej inteligencji!",
+            "visual": "Animacja przycisku subskrypcji, z efektem 'migania'",
+            "audio_notes": "Efekt dźwiękowy: 'miganie', muzyka elektroniczna"
+        }
+    },
+    "assets": {
+        "assets": [
+            {
+                "segment_index": 0,
+                "asset_type": "animation",
+                "source": "Pexels",
+                "search_query": "futuristic neon logo reveal",
+                "download_instructions": "Szukaj animacji z efektem świetlnym, czas min 3s",
+                "local_path": "assets\\segment_0.jpg"
+            },
+            {
+                "segment_index": 1,
+                "asset_type": "animation",
+                "source": "Pixabay",
+                "search_query": "counting numbers animation",
+                "download_instructions": "Szukaj animacji liczb od 1 do 5, czas min 3s",
+                "local_path": "assets\\segment_1.jpg"
+            },
+            {
+                "segment_index": 2,
+                "asset_type": "video",
+                "source": "Unsplash",
+                "search_query": "piano player close up",
+                "download_instructions": "Szukaj klipu muzyka grającego na pianinie, czas min 5s",
+                "local_path": "assets\\segment_2.mp4"
+            },
+            {
+                "segment_index": 3,
+                "asset_type": "video",
+                "source": "Pexels",
+                "search_query": "face emotions recognition",
+                "download_instructions": "Szukaj klipu twarzy z emocjami, czas min 3s",
+                "local_path": "assets\\segment_3.mp4"
+            },
+            {
+                "segment_index": 4,
+                "asset_type": "video",
+                "source": "Pixabay",
+                "search_query": "film camera footage",
+                "download_instructions": "Szukaj klipu kamery filmowej, czas min 3s",
+                "local_path": "assets\\segment_4.mp4"
+            },
+            {
+                "segment_index": 5,
+                "asset_type": "video",
+                "source": "Unsplash",
+                "search_query": "gaming computer screen",
+                "download_instructions": "Szukaj klipu gry komputerowej, czas min 3s",
+                "local_path": "assets\\segment_5.mp4"
+            },
+            {
+                "segment_index": 6,
+                "asset_type": "animation",
+                "source": "Pexels",
+                "search_query": "language words animation",
+                "download_instructions": "Szukaj animacji słów w różnych językach, czas min 3s",
+                "local_path": "assets\\segment_6.jpg"
+            },
+            {
+                "segment_index": 7,
+                "asset_type": "video",
+                "source": "Pixabay",
+                "search_query": "robot working background",
+                "download_instructions": "Szukaj klipu robota lub komputera, czas min 5s",
+                "local_path": "assets\\segment_7.mp4"
+            }
+        ],
+        "cta_asset": {
+            "asset_type": "animation",
+            "source": "Unsplash",
+            "search_query": "subscribe button animation",
+            "download_instructions": "Szukaj animacji przycisku subskrypcji, czas min 2s",
+            "local_path": "assets\\cta_asset.jpg"
+        }
+    },
+    "voice_and_subtitles": {
+        "tts_config": {
+            "language": "pl",
+            "voice": "Adam",
+            "speed": 1.2,
+            "tone": "dynamiczny"
+        },
+        "clean_narration": "Czy wiesz, że sztuczna inteligencja może tworzyć sztukę? Oto 5 najdziwniejszych faktów o sztucznej inteligencji. Fakt nr 1: Sztuczna inteligencja może komponować muzykę. Fakt nr 2: Sztuczna inteligencja może rozpoznawać emocje. Fakt nr 3: Sztuczna inteligencja może tworzyć filmy. Fakt nr 4: Sztuczna inteligencja może grać w gry. Fakt nr 5: Sztuczna inteligencja może tworzyć nowe języki. To tylko kilka przykładów tego, co może zrobić sztuczna inteligencja. Subskrybuj nasz kanał, aby dowiedzieć się więcej o sztucznej inteligencji",
+        "srt_content": "1\n00:00:00,000 --> 00:00:05,000\nCzy wiesz, że sztuczna inteligencja może tworzyć sztukę?\n\n2\n00:00:05,000 --> 00:00:10,000\nOto 5 najdziwniejszych faktów o sztucznej inteligencji.\n\n3\n00:00:10,000 --> 00:00:15,000\nFakt nr 1: Sztuczna inteligencja może komponować muzykę.\n\n4\n00:00:15,000 --> 00:00:20,000\nFakt nr 2: Sztuczna inteligencja może rozpoznawać emocje.\n\n5\n00:00:20,000 --> 00:00:25,000\nFakt nr 3: Sztuczna inteligencja może tworzyć filmy.\n\n6\n00:00:25,000 --> 00:00:30,000\nFakt nr 4: Sztuczna inteligencja może grać w gry.\n\n7\n00:00:30,000 --> 00:00:35,000\nFakt nr 5: Sztuczna inteligencja może tworzyć nowe języki.\n\n8\n00:00:35,000 --> 00:00:50,000\nTo tylko kilka przykładów tego, co może zrobić sztuczna inteligencja.\n\n9\n00:00:50,000 --> 00:01:00,000\nSubskrybuj nasz kanał, aby dowiedzieć się więcej o sztucznej inteligencji"
+    },
+    "editing_plan": {
+        "timeline": [
+            {
+                "segment_index": 0,
+                "start_time_sec": 0.0,
+                "end_time_sec": 5.0,
+                "assigned_asset_query": "futuristic neon logo reveal",
+                "transition_type": "fade_in",
+                "visual_effects": [
+                    "subtle_zoom_in",
+                    "glitch_effect"
+                ],
+                "text_animation_style": "word_by_word_pop"
+            },
+            {
+                "segment_index": 1,
+                "start_time_sec": 5.0,
+                "end_time_sec": 10.0,
+                "assigned_asset_query": "counting numbers animation",
+                "transition_type": "cut",
+                "visual_effects": [
+                    "color_grade_bright",
+                    "subtle_zoom_out"
+                ],
+                "text_animation_style": "standard_subtitles"
+            },
+            {
+                "segment_index": 2,
+                "start_time_sec": 10.0,
+                "end_time_sec": 15.0,
+                "assigned_asset_query": "piano player close up",
+                "transition_type": "cross_dissolve",
+                "visual_effects": [
+                    "subtle_zoom_in",
+                    "color_grade_moody"
+                ],
+                "text_animation_style": "bounce_popup"
+            },
+            {
+                "segment_index": 3,
+                "start_time_sec": 15.0,
+                "end_time_sec": 20.0,
+                "assigned_asset_query": "face emotions recognition",
+                "transition_type": "fade_out",
+                "visual_effects": [
+                    "glitch_effect",
+                    "subtle_zoom_out"
+                ],
+                "text_animation_style": "word_by_word_pop"
+            },
+            {
+                "segment_index": 4,
+                "start_time_sec": 20.0,
+                "end_time_sec": 25.0,
+                "assigned_asset_query": "film camera footage",
+                "transition_type": "cut",
+                "visual_effects": [
+                    "color_grade_bright",
+                    "subtle_zoom_in"
+                ],
+                "text_animation_style": "standard_subtitles"
+            },
+            {
+                "segment_index": 5,
+                "start_time_sec": 25.0,
+                "end_time_sec": 30.0,
+                "assigned_asset_query": "gaming computer screen",
+                "transition_type": "cross_dissolve",
+                "visual_effects": [
+                    "subtle_zoom_out",
+                    "glitch_effect"
+                ],
+                "text_animation_style": "bounce_popup"
+            },
+            {
+                "segment_index": 6,
+                "start_time_sec": 30.0,
+                "end_time_sec": 35.0,
+                "assigned_asset_query": "language words animation",
+                "transition_type": "fade_in",
+                "visual_effects": [
+                    "color_grade_moody",
+                    "subtle_zoom_in"
+                ],
+                "text_animation_style": "word_by_word_pop"
+            },
+            {
+                "segment_index": 7,
+                "start_time_sec": 35.0,
+                "end_time_sec": 50.0,
+                "assigned_asset_query": "robot working background",
+                "transition_type": "cut",
+                "visual_effects": [
+                    "subtle_zoom_out",
+                    "color_grade_bright"
+                ],
+                "text_animation_style": "standard_subtitles"
+            },
+            {
+                "segment_index": 8,
+                "start_time_sec": 50.0,
+                "end_time_sec": 60.0,
+                "assigned_asset_query": "subscribe button animation",
+                "transition_type": "fade_out",
+                "visual_effects": [
+                    "glitch_effect",
+                    "subtle_zoom_in"
+                ],
+                "text_animation_style": "bounce_popup"
+            }
+        ],
+        "audio_settings": {
+            "background_music_mood": "upbeat energetic",
+            "voiceover_volume_level": 1.0,
+            "background_music_volume_level": 0.12,
+            "audio_ducking_enabled": true
+        },
+        "export_settings": {
+            "format": "mp4",
+            "resolution": "1080x1920",
+            "fps": 30,
+            "target_bitrate": "8-10 Mbps",
+            "video_codec": "h264"
+        }
+    },
+    "upload_data": {
+        "youtube_metadata": {
+            "alternative_title": "Sztuczna Inteligencja: 5 Szokujących Prawd!",
+            "description": "Odkryj najdziwniejsze fakty o sztucznej inteligencji! Czy wiesz, że sztuczna inteligencja może tworzyć sztukę? W tym krótkim filmie edukacyjnym, dowiesz się o 5 najdziwniejszych faktach na temat AI. Nie zapomnij subskrybować naszego kanału, aby być na bieżąco z najnowszymi odkryciami i faktami na temat sztucznej inteligencji! #sztucznaInteligenja #AI #edukacja #nauka",
+            "tags": [
+                "sztuczna inteligencja",
+                "AI",
+                "najdziwniejsze fakty",
+                "edukacja",
+                "nauka",
+                "technologia",
+                "innowacje",
+                "przyszłość"
+            ],
+            "thumbnail_text": "SZTUCZNA INTELIGENCJA",
+            "viewer_question": "Czy myślisz, że sztuczna inteligencja będzie w stanie zastąpić ludzi w niektórych dziedzinach? Dajcie znać w komentarzach!"
+        }
+    },
+    "metadata": {
+        "status": "ready_for_render_and_upload"
+    }
+}

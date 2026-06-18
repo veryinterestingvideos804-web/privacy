@@ -1,0 +1,561 @@
+2026-06-17 23:05:20,783 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji, styl: edukacyjny, szybki, wiralowy
+2026-06-17 23:05:20,976 - TematGenerator - ERROR - Błąd podczas generowania tematów przez Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-17 23:07:59,827 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji, styl: edukacyjny, szybki, wiralowy
+2026-06-17 23:07:59,971 - TematGenerator - ERROR - Błąd podczas generowania tematów przez Gemini: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-17 23:09:58,496 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:10:58,675 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:11:36,293 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:11:36,293 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:11:36,480 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:11:36,481 - TematGenerator - ERROR - Błąd Gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 26.1985419s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}
+2026-06-17 23:14:02,145 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:14:02,146 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:14:02,290 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-06-17 23:14:02,290 - TematGenerator - ERROR - Błąd Gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-17 23:18:44,897 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:18:44,898 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:18:45,407 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-17 23:18:45,408 - TematGenerator - ERROR - Błąd Gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-17 23:20:42,018 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:20:42,018 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:20:42,174 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:20:42,175 - TematGenerator - WARNING - Przeciążenie API (próba 1/3). Czekam 10s...
+2026-06-17 23:20:52,176 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:20:52,315 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:20:52,316 - TematGenerator - WARNING - Przeciążenie API (próba 2/3). Czekam 20s...
+2026-06-17 23:21:12,317 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:21:12,446 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:21:12,447 - TematGenerator - WARNING - Przeciążenie API (próba 3/3). Czekam 30s...
+2026-06-17 23:21:42,448 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:21:42,594 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:21:42,595 - TematGenerator - ERROR - Błąd krytyczny po próbach ponowienia: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 20.099149953s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}
+2026-06-17 23:23:49,520 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:23:49,521 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:23:49,694 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-06-17 23:23:49,694 - TematGenerator - ERROR - Błąd krytyczny po próbach ponowienia: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}
+2026-06-17 23:26:17,671 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:26:17,672 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:26:18,588 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:26:18,588 - TematGenerator - WARNING - Przeciążenie API (próba 1/3). Czekam 10s...
+2026-06-17 23:26:28,589 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:26:29,495 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:26:29,496 - TematGenerator - WARNING - Przeciążenie API (próba 2/3). Czekam 20s...
+2026-06-17 23:26:49,497 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:26:49,629 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:26:49,629 - TematGenerator - WARNING - Przeciążenie API (próba 3/3). Czekam 30s...
+2026-06-17 23:27:19,630 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:27:19,749 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:27:19,750 - TematGenerator - ERROR - Błąd krytyczny po próbach ponowienia: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 42.947388439s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}
+2026-06-17 23:33:33,723 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:33:33,724 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-06-17 23:33:33,905 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-06-17 23:33:33,906 - TematGenerator - WARNING - Przeciążenie API Gemini (próba 1/3). Czekam 10s...
+2026-06-17 23:42:02,870 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:42:04,750 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 23:42:05,008 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 5 Niezwykłych Fakty o Sztucznej Inteligencji
+2026-06-17 23:42:05,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-06-17 23:42:05,615 - Scenariuszowiec - ERROR - Błąd podczas generowania scenariusza: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_Aryu********************************************Rt2N. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-06-17 23:49:57,304 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:49:59,363 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 23:49:59,623 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: Fakty, które zaskoczą
+2026-06-17 23:49:59,700 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-06-17 23:49:59,701 - Scenariuszowiec - ERROR - Błąd podczas generowania scenariusza: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-06-17 23:52:40,643 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-17 23:52:42,460 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-06-17 23:52:42,461 - TematGenerator - ERROR - Błąd krytyczny po próbach ponowienia: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n  "ideas":[\n      {\n         "title":"Sztuczna inteligencja: 5 niezwykłych faktów",\n         "hook":"Czy wiesz, że sztuczna inteligencja może tworzyć sztukę?",\n         "description":"W tym filmie odkryjesz najdziwniejsze fakty o sztucznej inteligencji, od tworzenia muzyki po rozpoznawanie emocji. Zobacz, jak AI zmienia nasz świat!",\n         "keywords":["sztuczna inteligencja", "AI", "nauka", "technologia"]\n      },\n      {\n         "title":"Najdziwniejsze zastosowania sztucznej inteligencji",\n         "hook":"Sztuczna inteligencja może przewidywać Twoje zachowania!",\n         "description":"Odkryj, jak sztuczna inteligencja jest używana w niezwykłych sposób, od rozpoznawania mowy po tworzenie wirtualnych asystentów. Czy jesteś gotowy, aby dowiedzieć się więcej?",\n         "keywords":["sztuczna inteligencja", "zastosowania", "przyszłość", "technologia"]\n      ),\n      {\n         "title":"Sztuczna inteligencja: między nauką a fikcją",\n         "hook":"Czy sztuczna inteligencja może zastąpić ludzi?",\n         "description":"W tym filmie sprawdzimy granice między nauką a fikcją w dziedzinie sztucznej inteligencji. Zobacz, co jest możliwe, a co jeszcze nie!",\n         "keywords":["sztuczna inteligencja", "nauka", "fikcja", "przyszłość"]\n      }\n   ]\n}}'}}
+2026-06-18 00:05:24,310 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 00:05:26,309 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:05:26,573 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 10 szokujących faktów o sztucznej inteligencji
+2026-06-18 00:05:28,942 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:05:28,943 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 00:05:29,199 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 00:05:30,940 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:05:30,941 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 00:05:31,206 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 00:05:32,881 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:05:32,882 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 00:05:33,133 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 00:05:34,864 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:05:34,864 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 00:05:35,117 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 00:05:36,066 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:05:36,067 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:09:02,530 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 14:09:04,317 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:09:04,594 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 10 sekretów AI
+2026-06-18 14:09:06,988 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:09:06,989 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 14:09:07,254 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 14:09:09,239 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:09:09,240 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 14:09:09,241 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: coding screen animation with music
+2026-06-18 14:09:09,974 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/31177056/pexels-photo-31177056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:09:10,665 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.jpg
+2026-06-18 14:09:10,666 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: neural network animation with computer sounds
+2026-06-18 14:09:11,285 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/17485865/pexels-photo-17485865.png?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:09:14,237 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.jpg
+2026-06-18 14:09:14,238 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: person listening to music with emotional reaction
+2026-06-18 14:09:14,954 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/19327087/19327087-hd_1080_1920_50fps.mp4
+2026-06-18 14:09:16,136 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.mp4
+2026-06-18 14:09:16,138 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: robot painting a picture with brush sounds
+2026-06-18 14:09:16,798 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6731288/6731288-hd_1080_1920_25fps.mp4
+2026-06-18 14:09:17,244 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 14:09:17,244 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: brain scan animation with thinking person
+2026-06-18 14:09:17,908 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/4226119/pexels-photo-4226119.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:09:18,363 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.jpg
+2026-06-18 14:09:18,364 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: person typing on computer with browser open
+2026-06-18 14:09:19,023 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8523642/8523642-hd_1080_1920_25fps.mp4
+2026-06-18 14:09:19,461 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 14:09:19,462 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: smart home devices with control panel
+2026-06-18 14:09:20,162 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6855615/6855615-uhd_2160_4096_25fps.mp4
+2026-06-18 14:09:21,424 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.mp4
+2026-06-18 14:09:21,425 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: computer game with AI opponent
+2026-06-18 14:09:22,039 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/9071006/9071006-hd_1080_1920_25fps.mp4
+2026-06-18 14:09:23,163 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 14:09:23,163 - AssetsDownloader - INFO - Pobieram asset 8 dla zapytania: office worker using AI for work
+2026-06-18 14:09:23,794 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/12896410/12896410-uhd_2160_3840_24fps.mp4
+2026-06-18 14:09:24,733 - AssetsDownloader - INFO - Zapisano asset do assets\segment_8.mp4
+2026-06-18 14:09:24,734 - AssetsDownloader - INFO - Pobieram asset 9 dla zapytania: countdown animation with number 10
+2026-06-18 14:09:25,364 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/5942143/pexels-photo-5942143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:09:25,822 - AssetsDownloader - INFO - Zapisano asset do assets\segment_9.jpg
+2026-06-18 14:09:25,823 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation with channel logo
+2026-06-18 14:09:26,431 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/32141311/pexels-photo-32141311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:09:26,745 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 14:09:27,013 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 14:09:28,141 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:09:28,142 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 14:09:28,403 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 14:09:28,437 - comtypes.client._code_cache - INFO - Could not import comtypes.gen, trying to create it.
+2026-06-18 14:09:28,438 - comtypes.client._code_cache - INFO - Created comtypes.gen directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:09:28,438 - comtypes.client._code_cache - INFO - Writing __init__.py file: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen\__init__.py'
+2026-06-18 14:09:28,441 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:09:28,463 - comtypes.client._generate - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-06-18 14:09:28,466 - comtypes.client._generate - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-06-18 14:09:28,536 - comtypes.client._generate - INFO - # Generating comtypes.gen.SpeechLib
+2026-06-18 14:09:28,541 - comtypes.client._generate - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-06-18 14:09:28,542 - comtypes.client._generate - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-06-18 14:09:28,547 - comtypes.client._generate - INFO - # Generating comtypes.gen.stdole
+2026-06-18 14:09:29,124 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 14:09:29,391 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 14:09:31,167 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:09:31,167 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 14:09:31,437 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 14:09:32,337 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:09:32,337 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:10:28,878 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 14:10:31,105 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:10:31,376 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 10 Niezwykłych Faktów o Sztucznej Inteligencji
+2026-06-18 14:10:35,653 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:10:35,654 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 14:10:35,915 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 14:10:38,322 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:10:38,323 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 14:10:38,323 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: futuristic neon logo reveal
+2026-06-18 14:10:38,960 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/8107913/pexels-photo-8107913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:10:39,901 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.jpg
+2026-06-18 14:10:39,902 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: fast paced tech montage
+2026-06-18 14:10:40,531 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/31983533/13629409_2160_3840_60fps.mp4
+2026-06-18 14:10:43,913 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.mp4
+2026-06-18 14:10:43,914 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: ai generated portrait comparison
+2026-06-18 14:10:44,541 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/11394978/pexels-photo-11394978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:10:47,005 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.jpg
+2026-06-18 14:10:47,006 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: music visualization ai generated
+2026-06-18 14:10:47,665 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/18069700/18069700-uhd_2160_3840_24fps.mp4
+2026-06-18 14:10:48,668 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 14:10:48,669 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: medical ai research animation
+2026-06-18 14:10:49,298 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/18069488/pexels-photo-18069488.png?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:10:49,749 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.jpg
+2026-06-18 14:10:49,750 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: ai generated short film
+2026-06-18 14:10:50,309 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8720761/8720761-uhd_2160_4096_25fps.mp4
+2026-06-18 14:10:50,939 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 14:10:50,939 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: cybersecurity ai network animation
+2026-06-18 14:10:51,569 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/25630341/pexels-photo-25630341.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:10:51,906 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.jpg
+2026-06-18 14:10:51,907 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: ai language learning app
+2026-06-18 14:10:52,498 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/30718267/13141945_2160_3240_30fps.mp4
+2026-06-18 14:10:53,564 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 14:10:53,565 - AssetsDownloader - INFO - Pobieram asset 8 dla zapytania: aviation ai safety animation
+2026-06-18 14:10:54,267 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/35983223/pexels-photo-35983223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:10:54,707 - AssetsDownloader - INFO - Zapisano asset do assets\segment_8.jpg
+2026-06-18 14:10:54,708 - AssetsDownloader - INFO - Pobieram asset 9 dla zapytania: ai product recommendation
+2026-06-18 14:10:55,277 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087083/8087083-uhd_2160_3840_25fps.mp4
+2026-06-18 14:10:57,302 - AssetsDownloader - INFO - Zapisano asset do assets\segment_9.mp4
+2026-06-18 14:10:57,303 - AssetsDownloader - INFO - Pobieram asset 10 dla zapytania: environmental ai monitoring animation
+2026-06-18 14:10:57,937 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/34649138/pexels-photo-34649138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:10:58,753 - AssetsDownloader - INFO - Zapisano asset do assets\segment_10.jpg
+2026-06-18 14:10:58,754 - AssetsDownloader - INFO - Pobieram asset 11 dla zapytania: ai virtual assistant conversation
+2026-06-18 14:10:59,407 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7706956/7706956-uhd_2160_4096_25fps.mp4
+2026-06-18 14:11:00,574 - AssetsDownloader - INFO - Zapisano asset do assets\segment_11.mp4
+2026-06-18 14:11:00,575 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: call to action subscribe button animation
+2026-06-18 14:11:01,221 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/21562936/pexels-photo-21562936.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:11:02,182 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 14:11:02,462 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 14:11:05,501 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:11:05,502 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 14:11:05,771 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 14:11:05,804 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\michal\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-18 14:11:05,805 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:11:06,441 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 14:11:06,736 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 14:11:09,577 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:11:09,578 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 14:11:09,839 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 14:11:11,021 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:11:11,022 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:11:56,304 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 14:11:57,707 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:11:57,985 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 5 Najdziwniejszych Fakty o Sztucznej Inteligencji
+2026-06-18 14:12:00,212 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:12:00,213 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 14:12:00,488 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 14:12:01,902 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:12:01,903 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 14:12:01,903 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: ai generated art futuristic animation 4k
+2026-06-18 14:12:02,673 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/18069831/18069831-uhd_2160_3840_24fps.mp4
+2026-06-18 14:12:03,287 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.mp4
+2026-06-18 14:12:03,288 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: animated title screen with countdown effect
+2026-06-18 14:12:03,965 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/9944852/pexels-photo-9944852.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:12:04,419 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.jpg
+2026-06-18 14:12:04,420 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: robot painting artwork futuristic laboratory 4k
+2026-06-18 14:12:05,127 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8328143/8328143-uhd_2160_3840_25fps.mp4
+2026-06-18 14:12:06,139 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.mp4
+2026-06-18 14:12:06,140 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: human emotions recognition ai analysis 4k
+2026-06-18 14:12:06,797 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8724215/8724215-uhd_2160_4096_25fps.mp4
+2026-06-18 14:12:07,867 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 14:12:07,868 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: ai generated music notes animation
+2026-06-18 14:12:08,610 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/34434131/pexels-photo-34434131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:12:09,079 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.jpg
+2026-06-18 14:12:09,079 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: ai writing book futuristic typewriter 4k
+2026-06-18 14:12:09,744 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/27440767/12145281_2160_3840_30fps.mp4
+2026-06-18 14:12:11,426 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 14:12:11,427 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: ai playing game futuristic arcade 4k
+2026-06-18 14:12:12,102 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6498244/6498244-uhd_2160_3840_25fps.mp4
+2026-06-18 14:12:12,936 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.mp4
+2026-06-18 14:12:12,937 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: ai facts montage futuristic animation 4k
+2026-06-18 14:12:13,624 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/36392049/15432956_1080_1920_30fps.mp4
+2026-06-18 14:12:14,147 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 14:12:14,148 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation glowing effect
+2026-06-18 14:12:14,867 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/9826204/pexels-photo-9826204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:12:15,610 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 14:12:15,914 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 14:12:17,075 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:12:17,076 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 14:12:17,366 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 14:12:17,402 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\michal\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-18 14:12:17,403 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:12:17,929 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 14:12:18,301 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 14:12:20,044 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:12:20,044 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 14:12:20,316 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 14:12:21,280 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:12:21,280 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:12:56,013 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 14:12:57,737 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:12:58,009 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 10 rzeczy, których nie wiedziałeś o sztucznej inteligencji
+2026-06-18 14:13:01,097 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:13:01,097 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 14:13:01,363 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 14:13:03,176 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:13:03,177 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 14:13:03,177 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: abstract ai generated art colorful background
+2026-06-18 14:13:03,839 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/25935017/11921987_2160_3840_30fps.mp4
+2026-06-18 14:13:05,458 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.mp4
+2026-06-18 14:13:05,458 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: counting numbers animation with dots
+2026-06-18 14:13:06,156 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/5412100/pexels-photo-5412100.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:13:06,612 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.jpg
+2026-06-18 14:13:06,613 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: ai music generation and emotion recognition
+2026-06-18 14:13:07,308 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/35335804/14971642_1080_1920_30fps.mp4
+2026-06-18 14:13:08,021 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.mp4
+2026-06-18 14:13:08,023 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: neurons and brain connections animation
+2026-06-18 14:13:08,697 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/9853003/pexels-photo-9853003.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:13:09,544 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.jpg
+2026-06-18 14:13:09,545 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: medical ai analyzing x-ray images
+2026-06-18 14:13:10,247 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6502010/6502010-uhd_2160_4096_25fps.mp4
+2026-06-18 14:13:11,685 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.mp4
+2026-06-18 14:13:11,686 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: ai generated film comparison with real film
+2026-06-18 14:13:12,311 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8085500/8085500-uhd_2160_3840_24fps.mp4
+2026-06-18 14:13:12,841 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 14:13:12,842 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: list of interesting ai facts
+2026-06-18 14:13:13,494 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/8295025/pexels-photo-8295025.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:13:13,951 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.jpg
+2026-06-18 14:13:13,953 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: learn more arrow animation
+2026-06-18 14:13:14,597 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/14983019/pexels-photo-14983019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:13:15,490 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.jpg
+2026-06-18 14:13:15,491 - AssetsDownloader - INFO - Pobieram asset 8 dla zapytania: various ai related videos on a channel
+2026-06-18 14:13:16,199 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7688618/7688618-uhd_2160_4096_24fps.mp4
+2026-06-18 14:13:17,121 - AssetsDownloader - INFO - Zapisano asset do assets\segment_8.mp4
+2026-06-18 14:13:17,122 - AssetsDownloader - INFO - Pobieram asset 9 dla zapytania: subscribe button animation with effects
+2026-06-18 14:13:17,732 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/9826204/pexels-photo-9826204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:13:18,058 - AssetsDownloader - INFO - Zapisano asset do assets\segment_9.jpg
+2026-06-18 14:13:18,059 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation with subscribe text
+2026-06-18 14:13:18,671 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/32141311/pexels-photo-32141311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:13:19,027 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 14:13:19,309 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 14:13:20,868 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:13:20,869 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 14:13:21,132 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 14:13:21,164 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\michal\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-18 14:13:21,165 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:13:21,640 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 14:13:21,913 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 14:13:23,877 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:13:23,878 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 14:13:24,139 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 14:13:25,140 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:13:25,141 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:13:56,216 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 14:13:57,632 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:13:57,905 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 5 Fakty o Sztucznej Inteligencji, o których nie wiesz
+2026-06-18 14:14:00,071 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:00,072 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 14:14:00,333 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 14:14:02,050 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:02,051 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 14:14:02,052 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: robot face looking at camera 3d animation
+2026-06-18 14:14:02,716 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/11636368/pexels-photo-11636368.png?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:14:03,167 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.jpg
+2026-06-18 14:14:03,168 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: number 5 countdown animation with light effects
+2026-06-18 14:14:03,777 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/37892672/16077167_2160_3840_59fps.mp4
+2026-06-18 14:14:04,215 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.mp4
+2026-06-18 14:14:04,216 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: ai generated art futuristic background
+2026-06-18 14:14:04,848 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/18068728/pexels-photo-18068728.png?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:14:05,339 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.jpg
+2026-06-18 14:14:05,340 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: gaming computer screen with ai opponent
+2026-06-18 14:14:05,960 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8128353/8128353-uhd_2160_3840_25fps.mp4
+2026-06-18 14:14:07,627 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 14:14:07,628 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: doctor and patient with medical equipment and tablet
+2026-06-18 14:14:08,301 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/5356602/5356602-uhd_2160_3840_25fps.mp4
+2026-06-18 14:14:09,278 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.mp4
+2026-06-18 14:14:09,279 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: language translation animation with speech bubbles
+2026-06-18 14:14:09,974 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/5428832/pexels-photo-5428832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:14:10,431 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.jpg
+2026-06-18 14:14:10,432 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: human and robot doing household chores together
+2026-06-18 14:14:11,042 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7641641/7641641-uhd_2160_4096_25fps.mp4
+2026-06-18 14:14:11,528 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.mp4
+2026-06-18 14:14:11,529 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: sztuczna inteligencja futuristic font
+2026-06-18 14:14:12,221 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/18069700/18069700-uhd_2160_3840_24fps.mp4
+2026-06-18 14:14:13,088 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 14:14:13,089 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation with light effects
+2026-06-18 14:14:13,744 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/9826204/pexels-photo-9826204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:14:14,172 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 14:14:14,431 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 14:14:15,578 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:15,579 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 14:14:15,842 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 14:14:15,878 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\michal\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-18 14:14:15,878 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:14:16,335 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 14:14:16,606 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 14:14:18,118 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:18,118 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 14:14:18,379 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 14:14:19,322 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:19,323 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:14:49,926 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 14:14:52,400 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:52,673 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: Sztuczna inteligencja w codziennym życiu
+2026-06-18 14:14:56,089 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:56,089 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 14:14:56,353 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 14:14:59,256 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:14:59,257 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 14:14:59,258 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: futuristic technology background animation
+2026-06-18 14:14:59,892 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/8833422/pexels-photo-8833422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:15:00,333 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.jpg
+2026-06-18 14:15:00,333 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: person talking to smart speaker
+2026-06-18 14:15:00,957 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6944305/6944305-uhd_2160_3840_24fps.mp4
+2026-06-18 14:15:01,552 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.mp4
+2026-06-18 14:15:01,553 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: website recommendation system
+2026-06-18 14:15:02,227 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8937986/8937986-hd_1080_1920_30fps.mp4
+2026-06-18 14:15:03,167 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.mp4
+2026-06-18 14:15:03,168 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: smart home devices
+2026-06-18 14:15:03,768 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/4961916/4961916-uhd_2160_3840_25fps.mp4
+2026-06-18 14:15:04,645 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 14:15:04,645 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: person using smart devices
+2026-06-18 14:15:05,249 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7341928/7341928-uhd_2160_4096_25fps.mp4
+2026-06-18 14:15:06,740 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.mp4
+2026-06-18 14:15:06,741 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: information technology website
+2026-06-18 14:15:07,363 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/3626151/3626151-uhd_2160_4096_25fps.mp4
+2026-06-18 14:15:07,833 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 14:15:07,834 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: person discovering new technology
+2026-06-18 14:15:08,488 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/5213003/5213003-uhd_2160_3840_25fps.mp4
+2026-06-18 14:15:10,238 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.mp4
+2026-06-18 14:15:10,239 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: tech logo
+2026-06-18 14:15:10,946 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/19826624/pexels-photo-19826624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:15:11,397 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.jpg
+2026-06-18 14:15:11,397 - AssetsDownloader - INFO - Pobieram asset 8 dla zapytania: subscribe button animation
+2026-06-18 14:15:12,081 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/36474525/15466536_1080_1920_29fps.mp4
+2026-06-18 14:15:12,549 - AssetsDownloader - INFO - Zapisano asset do assets\segment_8.mp4
+2026-06-18 14:15:12,550 - AssetsDownloader - INFO - Pobieram asset 9 dla zapytania: thank you message animation
+2026-06-18 14:15:13,192 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7564016/7564016-hd_1080_1920_30fps.mp4
+2026-06-18 14:15:13,922 - AssetsDownloader - INFO - Zapisano asset do assets\segment_9.mp4
+2026-06-18 14:15:13,922 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation
+2026-06-18 14:15:14,565 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/32141311/pexels-photo-32141311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 14:15:14,887 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 14:15:15,150 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 14:15:17,944 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:15:17,944 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 14:15:18,211 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 14:15:18,249 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\michal\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-18 14:15:18,250 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 14:15:18,701 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 14:15:18,972 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 14:15:21,561 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:15:21,562 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 14:15:21,830 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 14:15:23,133 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 14:15:23,134 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 14:15:27,473 - VideoRenderer - INFO - Renderowanie wideo do final_video.mp4
+2026-06-18 15:27:36,104 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 15:27:38,212 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:27:38,473 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 15:27:41,138 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:27:41,139 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 15:27:41,397 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 15:27:43,233 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:27:43,234 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 15:27:43,234 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: man playing instrument with futuristic background 4k
+2026-06-18 15:27:43,890 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6273829/6273829-uhd_2160_3840_30fps.mp4
+2026-06-18 15:27:46,116 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.mp4
+2026-06-18 15:27:46,116 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: artificial intelligence examples in various fields 4k
+2026-06-18 15:27:46,740 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8328148/8328148-uhd_2160_3840_25fps.mp4
+2026-06-18 15:27:47,885 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.mp4
+2026-06-18 15:27:47,886 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: generated images of portraits and landscapes 4k
+2026-06-18 15:27:48,622 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/32985074/pexels-photo-32985074.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:27:49,746 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.jpg
+2026-06-18 15:27:49,747 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: medical diagnosis and data analysis with ai 4k
+2026-06-18 15:27:50,373 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/6630460/6630460-uhd_2160_4096_25fps.mp4
+2026-06-18 15:27:50,959 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 15:27:50,959 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: interesting facts about artificial intelligence
+2026-06-18 15:27:51,575 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/35280159/14945650_2160_3840_25fps.mp4
+2026-06-18 15:27:52,191 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.mp4
+2026-06-18 15:27:52,192 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: ai generated movies and series 4k
+2026-06-18 15:27:52,846 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/37021581/15685294_2160_3840_30fps.mp4
+2026-06-18 15:27:53,359 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 15:27:53,360 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: other applications of artificial intelligence 4k
+2026-06-18 15:27:53,976 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8328148/8328148-uhd_2160_3840_25fps.mp4
+2026-06-18 15:27:55,045 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.mp4
+2026-06-18 15:27:55,046 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: future with artificial intelligence 4k
+2026-06-18 15:27:55,694 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087078/8087078-uhd_2160_3840_25fps.mp4
+2026-06-18 15:27:56,881 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 15:27:56,882 - AssetsDownloader - INFO - Pobieram asset 8 dla zapytania: people working on artificial intelligence 4k
+2026-06-18 15:27:57,583 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087025/8087025-uhd_2160_3840_25fps.mp4
+2026-06-18 15:27:58,741 - AssetsDownloader - INFO - Zapisano asset do assets\segment_8.mp4
+2026-06-18 15:27:58,742 - AssetsDownloader - INFO - Pobieram asset 9 dla zapytania: learn more about artificial intelligence
+2026-06-18 15:27:59,404 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087025/8087025-uhd_2160_3840_25fps.mp4
+2026-06-18 15:28:00,502 - AssetsDownloader - INFO - Zapisano asset do assets\segment_9.mp4
+2026-06-18 15:28:00,503 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation 4k
+2026-06-18 15:28:01,121 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/32141311/pexels-photo-32141311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:28:01,464 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 15:28:01,715 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 15:28:02,979 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:28:02,980 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 15:28:03,281 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 15:28:03,318 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\michal\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-06-18 15:28:03,318 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\michal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2026-06-18 15:28:03,732 - TTSGenerator - INFO - ✅ Wygenerowano audio pyttsx3 jako voice.mp3 (OFFLINE, DARMOWE)
+2026-06-18 15:28:04,007 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 15:28:05,875 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:28:05,876 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 15:28:06,131 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 15:28:07,001 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:28:07,002 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 15:28:12,996 - VideoRenderer - INFO - Renderowanie wideo do final_video.mp4
+2026-06-18 15:31:27,033 - google_auth_oauthlib.flow - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=176254308775-ljsmdma9p62r74he60809mun6bd7klts.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A41399%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=9saTpUKJvQl0corKM4sZFgnid3cuch&code_challenge=u1Ax3sadpfqOmfvpXHfRdFEy18xXPKsKvqWuTjNUc18&code_challenge_method=S256&access_type=offline
+2026-06-18 15:51:46,901 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 15:51:49,073 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:51:49,334 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: 5 Niezwykłych Fakty o Sztucznej Inteligencji
+2026-06-18 15:51:51,599 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:51:51,600 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 15:51:51,864 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 15:51:53,147 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:51:53,148 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 15:51:53,148 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: robot painting artwork 4k
+2026-06-18 15:51:54,077 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7116946/7116946-uhd_2160_4096_25fps.mp4
+2026-06-18 15:51:55,845 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.mp4
+2026-06-18 15:51:55,845 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: counting numbers animation 3d
+2026-06-18 15:51:56,447 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/5412100/pexels-photo-5412100.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:51:56,965 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.jpg
+2026-06-18 15:51:56,967 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: robot playing musical instrument 4k
+2026-06-18 15:51:57,578 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087021/8087021-uhd_2160_3840_25fps.mp4
+2026-06-18 15:51:58,683 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.mp4
+2026-06-18 15:51:58,684 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: robot showing emotions 4k
+2026-06-18 15:51:59,464 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087073/8087073-uhd_2160_3840_25fps.mp4
+2026-06-18 15:52:01,342 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 15:52:01,343 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: face recognition technology 4k
+2026-06-18 15:52:02,050 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/36435099/15449825_2160_3840_60fps.mp4
+2026-06-18 15:52:03,913 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.mp4
+2026-06-18 15:52:03,913 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: robot translating languages 4k
+2026-06-18 15:52:04,659 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087025/8087025-uhd_2160_3840_25fps.mp4
+2026-06-18 15:52:05,760 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 15:52:05,761 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: robot playing chess 4k
+2026-06-18 15:52:06,457 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8328103/8328103-uhd_2160_3840_25fps.mp4
+2026-06-18 15:52:08,204 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.mp4
+2026-06-18 15:52:08,205 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: robot and human collaboration 4k
+2026-06-18 15:52:08,845 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8328143/8328143-uhd_2160_3840_25fps.mp4
+2026-06-18 15:52:10,022 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 15:52:10,023 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation 3d
+2026-06-18 15:52:10,648 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/8834238/pexels-photo-8834238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:52:11,092 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 15:52:11,350 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 15:52:12,732 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:52:12,733 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 15:52:12,984 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 15:52:14,606 - TTSGenerator - WARNING - Błąd ElevenLabs TTS: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'Adam' was not found.","status":"voice_not_found","request_id":"3f3a9455fc0cccf823c98b8986763bca"}}
+2026-06-18 15:52:14,857 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 15:52:16,464 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:52:16,465 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 15:52:16,726 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 15:52:17,964 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:52:17,965 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 15:52:22,525 - VideoRenderer - INFO - Renderowanie wideo do final_video.mp4
+2026-06-18 15:54:55,287 - google_auth_oauthlib.flow - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=176254308775-ljsmdma9p62r74he60809mun6bd7klts.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A17543%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=TfaGUunlZpXBNKcrO7UTvjHLMSn87w&code_challenge=PMNRk9GNmHzcXMNPvPuhErSu7wXdZnHDgLc5FnHxphg&code_challenge_method=S256&access_type=offline
+2026-06-18 15:58:22,703 - TematGenerator - INFO - Generowanie tematów dla: Najdziwniejsze fakty o sztucznej inteligencji
+2026-06-18 15:58:23,990 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:58:24,252 - Scenariuszowiec - INFO - Generowanie skryptu dla tematu: Sztuczna inteligencja: 5 najdziwniejszych faktów
+2026-06-18 15:58:26,747 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:58:26,748 - Scenariuszowiec - INFO - Pomyślnie wygenerowano scenariusz.
+2026-06-18 15:58:27,006 - AssetsCollector - INFO - Rozpoczęcie dobierania materiałów wideo/graficznych do scenariusza.
+2026-06-18 15:58:28,518 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:58:28,519 - AssetsCollector - INFO - Pomyślnie dobrano materiały wideo.
+2026-06-18 15:58:28,519 - AssetsDownloader - INFO - Pobieram asset 0 dla zapytania: futuristic neon logo reveal
+2026-06-18 15:58:28,851 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/8107913/pexels-photo-8107913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:58:29,184 - AssetsDownloader - INFO - Zapisano asset do assets\segment_0.jpg
+2026-06-18 15:58:29,185 - AssetsDownloader - INFO - Pobieram asset 1 dla zapytania: counting numbers animation
+2026-06-18 15:58:29,843 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/5412100/pexels-photo-5412100.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:58:30,155 - AssetsDownloader - INFO - Zapisano asset do assets\segment_1.jpg
+2026-06-18 15:58:30,155 - AssetsDownloader - INFO - Pobieram asset 2 dla zapytania: piano player close up
+2026-06-18 15:58:30,704 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8331699/8331699-uhd_2160_4096_25fps.mp4
+2026-06-18 15:58:32,327 - AssetsDownloader - INFO - Zapisano asset do assets\segment_2.mp4
+2026-06-18 15:58:32,328 - AssetsDownloader - INFO - Pobieram asset 3 dla zapytania: face emotions recognition
+2026-06-18 15:58:32,998 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8724215/8724215-uhd_2160_4096_25fps.mp4
+2026-06-18 15:58:34,014 - AssetsDownloader - INFO - Zapisano asset do assets\segment_3.mp4
+2026-06-18 15:58:34,015 - AssetsDownloader - INFO - Pobieram asset 4 dla zapytania: film camera footage
+2026-06-18 15:58:34,592 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/34536746/14633521_2160_3840_50fps.mp4
+2026-06-18 15:58:35,399 - AssetsDownloader - INFO - Zapisano asset do assets\segment_4.mp4
+2026-06-18 15:58:35,400 - AssetsDownloader - INFO - Pobieram asset 5 dla zapytania: gaming computer screen
+2026-06-18 15:58:35,968 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/7914925/7914925-hd_1080_1920_30fps.mp4
+2026-06-18 15:58:36,374 - AssetsDownloader - INFO - Zapisano asset do assets\segment_5.mp4
+2026-06-18 15:58:36,374 - AssetsDownloader - INFO - Pobieram asset 6 dla zapytania: language words animation
+2026-06-18 15:58:37,224 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/11942038/pexels-photo-11942038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:58:37,675 - AssetsDownloader - INFO - Zapisano asset do assets\segment_6.jpg
+2026-06-18 15:58:37,676 - AssetsDownloader - INFO - Pobieram asset 7 dla zapytania: robot working background
+2026-06-18 15:58:38,347 - AssetsDownloader - INFO - Pobieranie pliku z: https://videos.pexels.com/video-files/8087025/8087025-uhd_2160_3840_25fps.mp4
+2026-06-18 15:58:39,391 - AssetsDownloader - INFO - Zapisano asset do assets\segment_7.mp4
+2026-06-18 15:58:39,392 - AssetsDownloader - INFO - Pobieram asset cta dla zapytania: subscribe button animation
+2026-06-18 15:58:39,702 - AssetsDownloader - INFO - Pobieranie pliku z: https://images.pexels.com/photos/32141311/pexels-photo-32141311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+2026-06-18 15:58:40,011 - AssetsDownloader - INFO - Zapisano asset do assets\cta_asset.jpg
+2026-06-18 15:58:40,263 - VoiceSubtitlesGenerator - INFO - Rozpoczęcie przetwarzania tekstu lektorskiego i generowania napisów SRT.
+2026-06-18 15:58:41,441 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:58:41,442 - VoiceSubtitlesGenerator - INFO - Pomyślnie wygenerowano napisy SRT oraz tekst dla lektora.
+2026-06-18 15:58:41,693 - TTSGenerator - INFO - Rozpoczynam generowanie pliku audio lektora AI.
+2026-06-18 15:58:42,445 - TTSGenerator - WARNING - Błąd ElevenLabs TTS: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'Adam' was not found.","status":"voice_not_found","request_id":"203174e63ff78c67213c12c748829522"}}
+2026-06-18 15:58:42,698 - EditorPlanner - INFO - Rozpoczęcie generowania instrukcji montażowych dla wideo.
+2026-06-18 15:58:44,369 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:58:44,369 - EditorPlanner - INFO - Pomyślnie wygenerowano plan montażowy.
+2026-06-18 15:58:44,636 - UploadManager - INFO - Rozpoczęcie generowania metadanych SEO dla YouTube.
+2026-06-18 15:58:45,622 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 15:58:45,623 - UploadManager - INFO - Pomyślnie wygenerowano metadane do publikacji.
+2026-06-18 15:58:50,136 - VideoRenderer - INFO - Renderowanie wideo do final_video.mp4
+2026-06-18 16:01:54,137 - google_auth_oauthlib.flow - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=176254308775-ljsmdma9p62r74he60809mun6bd7klts.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8647%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=MhTbSzlkL8qks3njCq4rJYGN0qaj7e&code_challenge=y4Z0607sXcZOL-iFERAXc2eeWwywfFm98c-u_U9n82Y&code_challenge_method=S256&access_type=offline
